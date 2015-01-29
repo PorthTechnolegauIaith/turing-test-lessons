@@ -2,68 +2,67 @@
 
 ![](robot.png)
 
-## Introduction
+## Cyflwyniad
 
-This scheme of work has been designed as an introduction to text-based programming using Python on the Raspberry Pi. By the end of all the lessons, students will have created an interactive chat bot and been introduced to the computer science concept of artificial intelligence.
+Mae’r cynllun gwaith hwn wedi ei ddylunio fel cyflwyniad i raglennu seiliedig ar destun gan defnyddio Python ar y Raspberry Pi. Erbyn diwedd yr holl wersi, bydd myfyrwyr wedi creu chat bot rhyngweithiol ac wedi’u cyflwyno at y cysyniad cyfrifiadurol o ddeallusrwydd artiffisial. 
 
-This scheme of work is specifically targeted towards introductory KS2 Computing, although these lessons could be used as a wider scheme of work at KS3. This has been developed in harmony with the new Computing curriculum in the UK.
+Mae’r cynllun gwaith hwn wedi ei dargedu yn benodol at Gyfrifiadura KS2 cyflwyniadol, er y gellid defnyddio y gwersi rhain mewn cynllun ehangach o waith yn KS3. Mae hyn wedi ei ddatblygu yn unol a chwricwlwm Cyfrifiadura newydd y DU.
 
-##Learning outcomes:
+## Deilliannau dysgu:
 
-Over the course of three lessons, students will learn:
+Yn ystod y cwrs o dri gwers, bydd myfyrwyr yn dysgu:
 
-- What a Raspberry Pi is, what its main features are, and how to set up and use one.
-- How to program a Raspberry Pi to act as a chat robot.
-- What is meant by artificial intelligence, in particular relating to the Turing test.
-- The following computer science concepts:
-	- Sequencing
-	- Debugging
-	- User input
-	- Print statements
+- Beth yw Raspberry Pi, beth yw ei brif nodweddion, a sut mae ei osod a’i ddefnyddio.
+- Sut i raglennu Raspberry Pi i ymddwyn a sgwrsio fel robot.
+- Beth a olygir gan ddeallusrwydd artiffisial, yn enwedig o ran y prawf Turing. 
+- Y cysyniadau cyfrifiadureg olynol:
+	- Dilyniannu
+	- Dadfygio
+	- Mewnbwn defnyddiwr 
+	- Datganiadau print
 
 
-##Computing Programme of Study Met
+## Rhaglen gyfrifiadura a gyfarfu
 
-###KS2:
+### KS2:
 
-- Design, write and debug programs that accomplish specific goals; solve problems by breaking them into smaller parts. Select, use and combine a variety of software on a range of digital devices to design and create a range of programs.
-- Use sequence, selection and repetition in programs; work with variables and various forms of input and output
-- Use logical reasoning to explain how some simple algorithms work; detect and correct errors in algorithms and programs
+- Dylunio, ysgrifennu a dadfygio rhaglenni a all gyflawni amcanion arbennig; datrys problemau drwy eu torri yn rannau llai. Dewis, defnyddio a chyfuno amrywiaeth o feddalwedd ar nifer o ddyfeisiau digidol er mwyn dylunio a chreu amrywiaeth o raglenni. 
+- Defnyddio dilyniannu, dewis ac ailadrodd mewn rhaglenni, gweithio gyda newidynnau a ffurfiau amrywiol o fewnbwn ac allbwn.
+- Defnyddio rhesymegu rhesymegol er mwyn egluro sut mae rhai algorithmau syml yn gweithio; canfod a gwirio gwallau mewn algorithmau a rhaglenni. 
 
-###KS3:
+### KS3:
 
-- Use two or more programming languages, at least one of which is textual, to solve a variety of computational problems.
+- Defnyddio dwy iaith raglennu neu fwy, yn cynnwys o leiaf un sydd yn destunol, er mwyn datrys amrywiaeth o broblemau cyfrifiadurol.
 
-[National Curriculum Computing Programmes of Study](https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study#key-stage-3)
+[Cwricwlwm Cenedlaethol Rhaglenni Astudiaeth Cyfrifiadura](https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study/national-curriculum-in-england-computing-programmes-of-study#key-stage-3)
 
-##Resources
+## Adnoddau
 
-For the majority of the lesson, it is suggested that work is carried out by students on a Raspberry Pi each or in pairs. Each student or pair should have access to the standard equipment described below:
+Ar gyfer y rhan fwyaf o’r wers, awgrymir bod y myfyrwyr yn gweithio ar Raspberry Pi yn unigol neu mewn parau. Dylai fod gan pob myfyriwr fynediad at y cyfarpar safonol disgrifir isod:
+- Un Raspberry Pi fesul pob pâr 
+- Y cerdyn NOOBS SD diweddaraf, gyda Raspbian wedi ei osod, fesul pob pâr 
+- 'espeak' wedi ei lwytho i lawr a’i osod ar bob cerdyn SD
+- Bysellfwrdd a llygoden wedi ei gysylltu at y Raspberry Pi fesul pob pâr 
+- Monitor wedi ei gysylltu at Raspberry Pi fesul pob pâr 
+- Holltwr clustffonau wedi ei gysylltu at jac sain Raspberry Pi fesul pâr (o wers tri ymlaen)
+- Pâr o glustffonau wedi eu cysylltu at yr holltwr fesul pâr (o wers tri ymlaen)
 
-- A Raspberry Pi per pair
-- The latest NOOBS SD card with Raspbian installed per pair
-- 'espeak' downloaded and installed on each SD card
-- A keyboard and mouse connected to the Raspberry Pi per pair
-- A monitor connected to the Raspberry Pi per pair
-- A headphone splitter connected to the Raspberry Pi audio jack per pair (from lesson 3 onwards)
-- A pair of headphones connected to the splitter per student (from lesson 3 onwards)
+*Nodyn: bydd y gwersi rhain yn defnyddio Python 3*.
 
-*Note: These lessons will use Python 3*.
+Gwelwch y [cyfarwyddiadau cysodi ar gyfer athrawon](teacher-instructions.md) am fwy o wybodaeth.
 
-See the [teacher setup instructions](teacher-instructions.md) for more information.
+## Gwersi
 
-##Lessons
+- [Gwers 1: Sut mae cyfrifiaduron yn meddwl?](Lesson-1/lesson-plan-1.md)
+- [Gwers 2: Ydy cyfrifiaduron yn gallu meddwl dros eu hunain?](Lesson-2/lesson-plan-2.md)
+- [Gwers 3: Creu Robot sy’n sgwrsio](Lesson-3/lesson-plan-3.md)
 
-- [Lesson 1: How do Computers Think?](Lesson-1/lesson-plan-1.md)
-- [Lesson 2: Can Computers Think for Themselves?](Lesson-2/lesson-plan-2.md)
-- [Lesson 3: Make a Chatting Robot](Lesson-3/lesson-plan-3.md)
+## Trwydded
 
-## Licence
-
-Unless otherwise specified, everything in this repository is covered by the following licence:
+Oni bai y datganir fel arall, mae popeth yn yr ystorfa hwn yn ymrwymiedig â'r drwydded ganlynol:
 
 ![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-***Turing Test Lessons*** by the [Raspberry Pi Foundation](http://raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+***Gwersi Prawf Turing*** gan y [Sefydliad Raspberry Pi](http://raspberrypi.org) wedi'i drwyddedu dan [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Based on a work at https://github.com/raspberrypilearning/turing-test-lessons
+Wedi'i seilio ar waith yn: https://github.com/raspberrypilearning/turing-test-lessons
