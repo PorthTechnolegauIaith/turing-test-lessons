@@ -1,103 +1,103 @@
-# Lesson 2 - Can Computers Think For Themselves? 
+# Lesson 2 - Ydy cyfrifiaduron yn gallu meddwl dros eu hunain?
 
-## Introduction
+## Cyflwyniad
 
-This lesson will give an introduction to Python programming by writing a simple program to take user input, and then print statements to the screen. It builds on lesson 1 using IDLE 3 to program in Python 3.
-
-
-## Learning objectives
-
-- Know how to debug code
-- Understand the differences between speaking to a human and speaking to a computer program
-- Be able to create and debug a simple computer program in Python using `print` and user input
+Bydd y wers yma yn cynnig cyflwyniad i raglennu Python drwy ysgrifennu rhaglen syml i gymryd mewnbwn defnyddiwr, a wedyn printio datganiadau at y sgrîn. Mae’n adeiladu ar wers 1 wrth ddefnyddio IDLE 3 i raglennu yn Python 3.  
 
 
-## Learning outcomes
+## Amcanion Dysgu
 
-###All students are able to:
-
-- Be able to write a simple Python program and check that it works.
-
-### Most students are able to:
-
-- Know that Python is a computer programming language.  
-- Be able to write a simple Python program, and explain the sequence it is following.
-
-### Some students are able to:
-
-- Understand the limitations of computers, compared to human intelligence, when following a sequence of instructions. 
+- Gwybod sut i ddadfygio cod 
+- Deall y gwahaniaeth rhwng siarad gyda bod dynol a siarad gyda rhaglen gyfrifiadurol
+- Gallu creu a dadfygio rhaglen gyfrifiadurol syml mewn Python gan ddefnyddio 'print' a mewnbwn defnyddiwr
 
 
-## Lesson summary
+## Deilliannau Dysgu
 
-- The first Python program
+### Pob myfyriwr yn gallu:
 
-## Starter
+- Ysgrifennu rhaglen Python syml a gwirio ei fod yn gweithio. 
 
-Direct students to a website containing a chat bot like [Elbot](http://www.elbot.com/), or display a website with a chat bot to the class. You could even use Siri on an Apple device. 
+### Y rhan fwyaf o fyfyrwyr yn gallu:
 
-Students may ask questions to the chat bot. Ask them to note any answers that don’t quite match the questions; for example 'who is the best football player in the world?'. After a few minutes have the students feedback in a whole class discussion. The teacher should note some of the questions that may have confused the chat bot. Draw out from students any themes, or reasons why they may think the chat bot could not answer their questions as they would expect.
+- Gwybod fod Python yn iaith raglennu gyfrifiadurol.   
+- Ysgrifennu rhaglen syml Python, ac yna egluro y dilyniant mae’n ei ddilyn.
 
-Ask the students why it is so hard for programs like these to understand and interact with humans. Why is it so easy to confuse them? Draw out from questioning that computers execute or run programs that follow a sequence of instructions, and that they can only follow this sequence. 
+### Rhai myfyrwyr yn gallu:
 
-Explain the concept of the [Turing test](http://en.wikipedia.org/wiki/Turing_test) and artificial intelligence. Explain that in this lesson, students will write Python programs on the Raspberry Pi to turn them into a chatting robot.
+- Deall diffygion cyfrifiaduron, o’u cymharu gyda deallusrwydd dynol, pan yn dilyn dilyniant o gyfarwyddiadau.  
 
 
-## Main development
+## Crynodeb Gwers 
 
-1. Ask students to set up their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
+- Y rhaglen Python cyntaf 
 
-	*Note that students will not see any text when typing the password but assure them it is working. Why do they think this might be the case? Hint: what might happen if someone was looking over their shoulder?*
+## Man dechrau
+
+Cyfeiriwch y myfyrwyr at wefan sy’n cynnwys bot sgwrsio fel [Elbot](http://www.elbot.com/), neu arddangoswch gwefan sy’n cynnwys bot sgwrsio i’r dosbarth. Fe allech chi hyd yn oed ddefnyddio Siri ar ddyfais Apple. 
+
+Gall y myfyrwyr ofyn cwestiynau i’r bot sgwrsio. Gofynnwch iddyn nhw nodi unrhyw atebion nad ydyn nhw’n cyfateb yn union gyda’r cwestiwn; er enghraifft ‘pwy yw’r chwaraewr pêl droed gorau yn y byd?’. Ar ôl munud neu ddwy, dylai’r myfyrwyr roi adborth mewn trafodaeth gyda’r holl ddosbarth.  Dylai’r athro nodi rhai o’r cwestiynau a allai fod wedi drysu y bot sgwrsio. Ceisiwch annog y myfyrwyr i fynegi unrhyw themâu, neu resymau, pam na fyddai’r robot yn gallu ateb eu cwestiynau fel y bydden nhw’n disgwyl.
+
+Gofynnwch i’r myfyrwyr pam ei fod yn mor anodd i raglenni fel rhain ddeall a rhyngweithio gyda bodau dynol. Pam eu bod nhw yn mor hawdd i’w drysu? Ceisiwch annog y myfyrwyr i sylweddoli fod cyfrifiaduron yn gweithredu neu’n redeg rhaglenni sy’n dilyn dilyniant o gyfarwyddiadau, ac mai dim ond y dilyniant yma allent nhw ei ddilyn.   
+
+Eglurwch gysyniad y [Prawf Turing](http://en.wikipedia.org/wiki/Turing_test) a deallusrwydd artiffisial. Eglurwch y bydd y myfyrwyr yn y wers hon yn ysgrifennu rhaglenni Python ar y Raspberry Pi er mwyn eu troi i mewn i robotiaid sgwrsio. 
+
+
+## Prif Ddatblygiad
+
+1. Gofynnwch i’r myfyrwyr osod eu cyfarpar Raspberry Pi, ei droi ymlaen a mewngofnodi i’w Pi gan ddefnyddio yr enw defnyddiwr 'pi' a’r cyfrinair 'raspberry'.
+
+	*Nodwch na fydd y myfyrwyr yn gallu gweld unrhyw destun wrth deipio’r cyfrinair, ond sicrhewch iddyn nhw ei fod yn gweithio. Pam bod hyn yn digwydd? Cliw: beth fyddai yn digwydd petai rhywun yn edrych dros eu hysgwyddau?*
 	
-2. Next, students should load the graphical environment by typing `startx`. To use Python, students will need to access the programming environment **IDLE3**. To open IDLE3, students can either double-click on the IDLE3 icon on the desktop or click on the **Main Menu** and select **Programming**, followed by **IDLE 3**.
+2. Nesaf, dylai’r myfyrwyr lwytho’r amgylchedd raffigol drwy deipio 'startx'. I ddefnyddio Python, bydd angen i’r myfyrwyr gael mynediad at awyrgylch raglennu **IDLE3**. I agor IDLE3, gall y myfyrwyr unai glicio dwywaith ar yr eicon IDLE3 ar y bwrdd gwaith neu glicio ar y **prif ddewislen** a dewis **rhaglennu**, ac yna **IDLE3**.
 
 	![](idle3.png)
 
-3. Demonstrate the IDLE interpreter window to students. Explain that commands can be typed directly into this window after the prompt which looks like this: `>>>`. This window is referred to as the interpreter or shell. You can type a line of code after this prompt and press Enter; this will run that line of code. You can demonstrate this with `print("Hello World!")`. Ask students what they could replace the "Hello World" with. Have them experiment using the interpreter window for a few minutes. Explain that the computer can only follow one instruction at a time in **sequence**. 
+3. Arddangoswch y ffenest ddehongli IDLE i’r myfyrwyr. Eglurwch y gellir teipio yn uniongyrchol i mewn i’r ffenest ar ôl y prompt, a fydd yn edrych fel hyn: '>>>'. Gelwir y ffenest hwn yn ddehonglydd neu gragen. Gallech deipio llinell o god ar ôl y prompt a gwasgu Enter; bydd hyn rhedeg y llinell yna o god. Gallech arddangos hyn gyda `print("Helo Fyd!")`. Gofynnwch i’r myfyrwyr beth fydden nhw yn rhoi yn lle " Helo Fyd ". Gadewch iddyn nhw arbrofi gyda defnyddio y ffenest ddehongli am funud neu ddwy. Eglurwch y bydd y cyfrifiadur dim ond yn dilyn un cyfarwyddiad ar y tro mewn **dilyniant**. 
 
-4. Explain to students that when you are writing many lines of code in a program, it can become tiresome to use the interpreter; should you want to save your code, it is better to use a text editor. Show students how to create a new text editor file by clicking on **File>New Window** from the menu at the top of the **IDLE3** window. Show students how to save this file, by clicking on **File>Save As** and naming it `name1.py`.
+4. Eglurwch i’r myfyrwyr ei bod hi’n gallu mynd yn fwy ac yn fwy blinedig defnyddio y dehonglydd pan wyt ti’n ysgrifennu lot o linellau o god. Felly, os wyt ti eisiau cadw dy god, mae’n well defnyddio golygydd testun.  Dangoswch i’r myfyrwyr sut i greu ffeil golygydd testun newydd drwy glicio ar **Ffeil>Ffenest Newydd** o’r ddewislen ar dop y ffenest **IDLE3**.  Dangoswch i’r myfyrwyr sut i gadw y ffeil hon, drwy glicio ar **Ffeil>Dewisiadau Cadw** a’i henwi yn enw1.py. 
 
-5. Direct students to type the following code into the text editor window. Point out the difference between a comment and a line of code. Comments are parts of a program that are ignored by the computer, so we can make notes about what is happening in the program. 
+5.     Gofynnwch i’r myfyrwyr deipio y cod canlynol i mewn i ffenest y golygydd testun. Nodwch y gwahaniaeth rhwng sylw a llinell o god. Mae sylwadau yn ran o’r rhan o’r rhaglen sy’n cael eu anwybyddu gan y cyfrifiadur, fel ein bod ni yn gallu gwneud nodiadau ynglŷn a beth sy’n digwydd yn y rhaglen. 
 
 	```python
 	
-	# My Python Program by ....
+	# Fy Rhaglen Python gan ....
 	
-	name = input('what is your name: '),
-	print("Nice to meet you ", name)
+	enw = mewnbwn(‘beth yw dy enw: '), 
+	print("Braf cwrdd â chi ", enw)
 	```
 	
-	*Note that the spaces before `"` in the string are important.*
+	*Nodwch fod y bylchau cyn `“` yn y llinyn yn bwysig.* 
 	
-	Save the file as a Python file by clicking on **File** then **Save As**, and name it **robot**.
+	Cadwch y ffeil fel ffeil Python drwy glicio ar **Ffeil** ac yna **Dewisiadau Cadw**, a’i henwi yn **robot**. 
 	
-	Then run the file by clicking on **Run** then **Run Module**.
+	Yna rhedwch y ffeil drwy glicio ar **Rhedeg** ac yna **Rhedeg Modiwl**. 
 	
 	![](program-1.png)
 
-6. Students can then add their own input and `print` statements, perhaps asking for the user's age or their favourite colour. For example, they could add:
+6. Gall y myfyrwyr wedyn ychwanegu eu mewnbwn eu hunain a datganiadau 'print', efallai yn gofyn am oedrannau defnyddwyr a’u hoff lliwiau. Er enghraifft, gallent ychwanegu: 
 
 	```python
 	
-	age = input('How old are you: ')
-	print("You do not look like you are aged ", age)
+	oedran = mewnbwn(' pa mor hen wyt ti: ')
+	print("dwyt ti ddim yn edrych mor hen â hynny ", oedran)
 	```
-	Direct students to save the file and run the code as before.
+	Cyfeiriwch y myfyrwyr i gadw y ffeil a rhedeg yr un cod ag o’r blaen.  
 	
 	![](program-2.png)
 	
-7. Once students have working programs with multiple questions, introduce the idea of spacing out the questions asked with time. In a conversation, there is usually a pause between answering a question and asking the next one. The goal is to create a chatting robot that might be confused for a real person; therefore, we need to place a pause in between the questions. This can be achieved using the `time` module. To add the module, students will need to add `import time` underneath the comment and before the questions. Then between the questions they will need to use `time.sleep(1)`, where the value 1 represents 1 second, like this:
+7.  Unwaith mae gan y myfyrwyr raglenni sy’n weithredol ac yn cynnwys cwestiynau lluosog, cyflwynwch y syniad o osod bylchau rhwng y cwestiynau a ofynnwyd gyda amser. Fel arfer mewn sgwrs, mae saib rhwng ateb cwestiwn a gofyn yr un nesaf. Yr amcan yw i greu robot sgwrsio all rywun ei gamgymryd am berson; felly, rydym angen gosod saib rhwng y cwestiynau. Gellir cyflawni hyn gan ddefnyddio y modiwl 'amser'.   I ychwanegu y modiwl, bydd angen i’r myfyrwyr ychwanegu 'mewnforio amser' o dan y sylw a chyn y cwestiynau. Wedyn rhwng y cwestiynau bydd angen iddyn nhw ddefnyddio `amser.cysgu(1)`, lle mae gwerth 1 yn cynrychioli 1 eiliad, fel hyn: 
 
 	![](program-3.png)
 
-8. Allow the students to continue writing code to take user input and post information to the screen. Then ask students to save their work and shut down the Raspberry Pis by clicking on the **Shutdown** button on the desktop.
+8.  Gadewch i’r myfyrwyr barhau i ysgrifennu cod i gymryd mewnbwn a phostio gwybodaeth ar y sgrîn. Yna gofynnwch i’r myfyrwyr gadw eu gwaith a diffodd y Raspberry Pis drwy glicio ar y botwm **Cau i Lawr**.
 
 ## Plenary
 
-Ask students to choose three new words they have learnt today or in the last few lessons, and define them. Then ask students to write a paragraph for each of the words, or one using all three at once.
+Gofynnwch i’r myfyrwyr ddewis tri gair newydd maen nhw wedi eu dewis heddiw neu yn y gwersi diwethaf, a’u diffinio nhw. Yna gofynnwch i’r myfyrwyr ysgrifennu paragraff am bob un o’r geiriau, neu ddefnyddio tri ar unwaith. 
 
 
-## Homework
+## Gwaith Cartref
 
-Students should think of five questions that they would like their chatting robot to ask, ready for the next lesson.
+Dylai myfyrwyr feddwl am bump cwestiwn y bydden nhw yn hoffi i’w robot sgwrsio ofyn, yn barod ar gyfer y wers nesaf. 
 
