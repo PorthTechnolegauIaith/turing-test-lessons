@@ -4,11 +4,11 @@
 
 Bydd y wers yma yn dysgu i Fyfyrwyr sut i gymryd eu rhaglenni robotiaid sgwrsio, sydd ar hyn o bryd yn argraffu y sgwrs ar y sgrin, a’u troi yn robotiaid sy’n siarad lle y bydd modd iddyn nhw glywed eu robot yn gofyn y cwestiwn.
 
-Bydd yn rhaid i chi sicrhau bod ‘espeak’ wedi ei lwytho i lawr a’i osod ar y cardiau SD yn defnyddio 'sudo apt-get install espeak'.
+Bydd yn rhaid i chi sicrhau bod `espeak` wedi ei lwytho i lawr a’i osod ar y cardiau SD yn defnyddio `sudo apt-get install espeak`.
 
 Bydd angen i fyfyrwyr gael mynediad at glustffonau er mwyn clywed y synau. Falle bydd angen seinydd arnoch er mwyn arddangos i’r dosbarth.
 
-Yn olaf, bydd yn rhaid i chi sicrhau bod sain yn cael ei orfodi i mewn i glustffonau yn hytrach na HDMI drwy deipio 'amixer cset numid=3 1', neu drwy glicio dwywaith ar yr eicon Python Games a dewis **Gorfodi Clustffonau**. 
+Yn olaf, bydd yn rhaid i chi sicrhau bod sain yn cael ei orfodi i mewn i glustffonau yn hytrach na HDMI drwy deipio `amixer cset numid=3 1`, neu drwy glicio dwywaith ar yr eicon Python Games a dewis **Gorfodi Clustffonau**. 
 
 ## Amcanion dysgu 
 
@@ -65,9 +65,9 @@ Ar ôl i’r myfyrwyr labelu y cydrannau, gofynnwch i’r grwpiau egluro eu hate
 
 ## Prif Ddatblygiad
 
-1. Gofynnwch i’r myfyrwyr osod eu offer Raspberry Pi, ei droi ymlaen a mewngofnodi ar eu Pi gan ddefnyddio yr enw defnyddiwr 'pi' a’r cyfrinair 'raspberry'. Wedyn dylent lwytho eu rhaglenni robot sgwrsio gan ddefnyddio **IDLE3**. 
+1. Gofynnwch i’r myfyrwyr osod eu offer Raspberry Pi, ei droi ymlaen a mewngofnodi ar eu Pi gan ddefnyddio yr enw defnyddiwr `pi` a’r cyfrinair `raspberry`. Wedyn dylent lwytho eu rhaglenni robot sgwrsio gan ddefnyddio **IDLE3**. 
 	
-2.  Gan ddefnyddio eu gwaith cartref o’r wers blaenorol, cyfarwyddwch y myfyrwyr i ychwanegu mwy o gwestiynau at eu cod gan ddefnyddio 'mewnbwn' ac 'argraffu'.
+2.  Gan ddefnyddio eu gwaith cartref o’r wers blaenorol, cyfarwyddwch y myfyrwyr i ychwanegu mwy o gwestiynau at eu cod gan ddefnyddio `mewnbwn` ac `argraffu`.
 
 3.  Eglurwch y bydd angen i’r myfyrwyr ychwanegu rhywfaint o god fel gall y Raspberry Pi lefaru y geiriau yn y rhaglen. Bydd angen i’r myfyrwyr ychwanegu y cod canlynol at dop eu rhaglenni:
 
@@ -86,7 +86,7 @@ Ar ôl i’r myfyrwyr labelu y cydrannau, gofynnwch i’r grwpiau egluro eu hate
 
 5. Nesaf, eglurwch ei fod hi nawr yn bosib, yn lle argraffu cwestiynau at y sgrin, i gael eu llais robot i’w llefaru nhw ac wedyn ateb.
 
-	I wneud hyn, yn gyntaf mae angen iddyn nhw dynnu y gair 'print' ac ailosod yr enw ffwythiant 'robot' yn ei le, yna tynnu y coma `,` a’i gyfnewid gyda’r symbol `+`. Gofynnwch i’r myfyrwyr gadw a thestio ar y pwynt yma. Allen nhw egluro beth sydd yn digwydd? Mae pwyntiau bonws ar gyfer unrhyw un all feddwl am ffordd i gael y robot i ofyn y cwestiynau hefyd! Yr ateb yw i ychwanegu llinell arall uwchben y llinell mewnbwn gan ddefnyddio y ffwythiant `robot`, er enghraifft: 
+	I wneud hyn, yn gyntaf mae angen iddyn nhw dynnu y gair 'print' ac ailosod yr enw ffwythiant `robot` yn ei le, yna tynnu y coma `,` a’i gyfnewid gyda’r symbol `+`. Gofynnwch i’r myfyrwyr gadw a thestio ar y pwynt yma. Allen nhw egluro beth sydd yn digwydd? Mae pwyntiau bonws ar gyfer unrhyw un all feddwl am ffordd i gael y robot i ofyn y cwestiynau hefyd! Yr ateb yw i ychwanegu llinell arall uwchben y llinell mewnbwn gan ddefnyddio y ffwythiant `robot`, er enghraifft: 
 	
 	```python
 	robot('beth yw dy enw')
