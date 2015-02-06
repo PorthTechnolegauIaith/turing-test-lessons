@@ -2,7 +2,7 @@
 
 ## Cyflwyniad
 
-Bydd y wers yma yn cynnig cyflwyniad i raglennu Python drwy ysgrifennu rhaglen syml i gymryd mewnbwn defnyddiwr, a wedyn printio datganiadau at y sgrîn. Mae’n adeiladu ar wers 1 wrth ddefnyddio IDLE 3 i raglennu yn Python 3.  
+Bydd y wers yma yn cynnig cyflwyniad at raglennu Python drwy ysgrifennu rhaglen syml i gymryd mewnbwn defnyddiwr, a wedyn printio datganiadau at y sgrîn. Mae’n adeiladu ar wers 1 wrth ddefnyddio IDLE 3 i raglennu yn Python 3.  
 
 
 ## Amcanion Dysgu
@@ -57,7 +57,7 @@ Eglurwch gysyniad y [Prawf Turing](http://en.wikipedia.org/wiki/Turing_test) a d
 
 4. Eglurwch i’r myfyrwyr ei bod hi’n gallu mynd yn fwy ac yn fwy blinedig defnyddio y dehonglydd pan wyt ti’n ysgrifennu lot o linellau o god. Felly, os wyt ti eisiau cadw dy god, mae’n well defnyddio golygydd testun.  Dangoswch i’r myfyrwyr sut i greu ffeil golygydd testun newydd drwy glicio ar **Ffeil>Ffenest Newydd** o’r ddewislen ar dop y ffenest **IDLE3**.  Dangoswch i’r myfyrwyr sut i gadw y ffeil hon, drwy glicio ar **Ffeil>Dewisiadau Cadw** a’i henwi yn enw1.py. 
 
-5.     Gofynnwch i’r myfyrwyr deipio y cod canlynol i mewn i ffenest y golygydd testun. Nodwch y gwahaniaeth rhwng sylw a llinell o god. Mae sylwadau yn ran o’r rhan o’r rhaglen sy’n cael eu anwybyddu gan y cyfrifiadur, fel ein bod ni yn gallu gwneud nodiadau ynglŷn a beth sy’n digwydd yn y rhaglen. 
+5. Gofynnwch i’r myfyrwyr deipio y cod canlynol i mewn i ffenest y golygydd testun. Nodwch y gwahaniaeth rhwng sylw a llinell o god. Mae sylwadau yn ran o’r rhan o’r rhaglen sy’n cael eu anwybyddu gan y cyfrifiadur, fel ein bod ni yn gallu gwneud nodiadau ynglŷn a beth sy’n digwydd yn y rhaglen. 
 
 	```python
 	
