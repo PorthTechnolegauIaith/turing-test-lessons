@@ -1,81 +1,81 @@
-# Lesson 1 - How Do Computers Think? 
+# Gwers 1 – Sut mae cyfrifiaduron yn meddwl?
 
-##Introduction
+## Cyflwyniad
 
-How do computers think? In this lesson, students will consider how computers and robots need to follow a sequence of instructions to complete a task. Much of this lesson is dedicated to getting students using a Raspberry Pi for the first time, logging in, accessing IDLE3, and typing a small sequence of instructions to make a shape.
+Sut mae cyfrifiaduron yn meddwl? Yn y wers yma, bydd myfyrwyr yn ystyried y ffordd mae angen i gyfrifiaduron a robotiaid ddilyn cyfres o orchmynion er mwyn cyflawni tasg. Mae rhan fawr o’r wers yma wedi’i gysegru at gael myfyrwyr i ddefnyddio Raspberry Pi am y tro cyntaf, mewngofnodi, cael mynediad at IDLE3, a theipio cyfres byr o gyfarwyddiadau er mwyn creu siâp.
 
-## Learning objectives
+## Amcanion Dysgu
 
-- Know that computers follow a sequence of instructions to make something happen.
-- Be able to set up a Raspberry Pi, and give a set of instructions in Python to make a shape.
-
-
-## Learning outcomes
-
-###All students are able to:
-
-- Know that computers run programs that are a sequence of instructions to make something happen. 
-- Write a simple program. 
-
-###Most students are able to:
-
-- Know that Python is a computer programming language.  
-- Write a simple Python program and explain the sequence it is following.
-
-###Some students are able to:
-
-- Write a program to create a more complex shape.
+- Gwybod fod cyfrifiaduron yn dilyn cyfres o gyfarwyddiadau i achosi i rhywbeth ddigwydd.
+- Gallu gosod y Raspberry Pi, a rhoi cyfres o gyfarwyddiadau mewn Python i greu siâp. 
 
 
-## Lesson summary
+## Deilliannau Dysgu
 
-- An introduction to the basic physical parts of a Raspberry Pi
-- A demonstration that the Raspberry Pi can behave like a traditional computer
-- The first Python program
+### Pob myfyriwr yn gallu: 
 
-## Starter
+- Gwybod fod cyfrifiaduron yn rhedeg rhaglenni sydd yn gyfres o gyfarwyddiadau i wneud i rhywbeth ddigwydd.
+- Ysgrifennu rhaglen syml. 
 
-First nominate three or four students to act as robots, then divide the remaining students into three or four teams. Each team are in a race to see who can get a 'robot' around the classroom or 'maze'. Note that this could be an outdoor task. Explain to the 'robots' that they are to play dumb and only follow the instructions they are given. Then, begin the race.
+### Y rhan fwyaf o fyfyrwyr yn gallu:
 
-Throughout the race, ensure that students are using instructions like "step forward 10 paces" or "turn 90 degrees to the right".
+- Gwybod fod Python yn iaith rhaglennu cyfrifiadurol.  
+- Ysgrifennu rhaglen Python syml a egluro ei dilyniant.
 
-After the race has been won, discuss any problems the teams encountered getting their robot to follow their instructions. Draw out through questioning that the robot could not make decisions for itself, and so the students had to be very specific about turns and steps.
+### Rhai myfyrwyr yn gallu: 
 
-Explain that a computer works by executing statements one after another in a specific order. A given order of statements is called a **program**. Each program executes with a given **control flow** ; this describes which statement we are executing, and what the next statement will be.
+- Ysgrifennu rhaglen i greu siâp mwy cymhleth.
 
-## Main development
 
-1. Have a demonstration Raspberry Pi already connected and the final chatting robot program running. Hold up a Raspberry Pi board and ask the students what they think it is. Explain that it’s actually a computer and that in the coming lessons we’re going to do something special with it. Instead of running apps and games other people have created for us, we’re going to learn to write our own software to make a robot that chats to us.
+## Crynodeb Gwers
 
-2. Start with all the parts of the Raspberry Pi on a table: keyboard, mouse, speaker, memory card, power supply, monitor, monitor cable and the Raspberry Pi itself. Ask the class to name and describe each component as you connect it to the Raspberry Pi in front of the class. Finally, plug in the power and watch it boot up. An alternative demonstration would be to leave out the memory card and attempt to boot the Pi, which will fail. You can then describe the memory card as something that contains instructions to tell the Raspberry Pi how to start. The Raspberry Pis should all be booted and sitting on the login prompt waiting for authentication.
+- Cyflwyniad at rannau corfforol sylfaenol Raspberry Pi 
+- Arddangosiad y gall y Raspberry Pi ymddwyn fel cyfrifiadur traddodiadol
+- Y rhaglen Python cyntaf 
 
-2. Ask students to set up their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`.
+## Man Cychwyn
 
-	*Note that students will not see any text when typing the password but assure them it is working. Why do they think this might be the case? Hint: what might happen if someone was looking over their shoulder?*
+Yn gyntaf, dewiswch tri neu bedwar myfyriwr i fod yn robotiaid, ac yna rhannwch y myfyrwyr sy’n weddill yn dri neu bedwar tîm. Mae pob tîm yn cystadlu mewn ras i weld pwy all dywys ‘robot’ o gwmpas y dosbarth, neu ‘ddrysfa’ (maze). Gallai hyn fod yn dasg awyr agored. Eglurwch i’r ‘robotiaid’ bod rhaid iddyn nhw esgus bod yn dwp, a dim ond dilyn y cyfarwyddiadau maen nhw’n derbyn gan y myfyrwyr eraill. 
+
+Trwy gydol y ras, gwnewch yn sicr fod y myfyrwyr yn defnyddio cyfarwyddiadau fel “cama ymlaen 10 cam” neu “tro 90 gradd i’r dde”.
+
+Unwaith mae’r ras wedi’i hennill, trafodwch unrhyw broblemau daeth y timau ar eu traws wrth drio cael y robot i ddilyn eu cyfarwyddiadau.  Trïwch dynnu sylw y myfyrwyr at y ffaith na allasai’r robot wneud ei benderfyniadau ei hunain, ac y bu yn rhaid iddyn nhw fod yn benodol iawn ynglŷn a throeon a chamau oherwydd hynny. 
+
+Eglurwch fod cyfrifiadur yn gweithio drwy gyflawni datganiadau un ar ôl y llall mewn dilyniant penodol. Gelwir dilyniant arbennig o ddatganiadau yn raglen. Mae pob rhaglen yn gweithredu gyda llif reolaeth arbennig ; mae hyn yn disgrifio pa ddatganiad y byddem yn ei gyflawni, a beth fydd y datganiad nesaf. 
+
+## Prif Ddatblygiad
+
+1. Arddangoswch Raspberry Pi wedi’i gysylltu yn barod, a’r rhaglen robot sgwrsio olaf yn rhedeg.  Dangoswch famfwrdd Raspberry Pi a gofynnwch i’r myfyrwyr beth mae’n nhw’n meddwl ydyw. Eglurwch mai cyfrifiadur ydyw mewn gwirionedd ac ein bod ni am wneud rhywbeth arbennig iawn gydag ef yn y gwersi sydd i ddod. Yn lle rhedeg apiau a gemau mae pobl eraill wedi eu creu ar ein cyfer, byddem yn dysgu sut i ysgrifennu meddalwedd er mwyn creu robot sy’n sgwrsio â ni.  
+
+2. Dechreuwch gyda holl gydrannau y Raspberry Pi ar y bwrdd: bysellfwrdd, llygoden, seinydd, cerdyn cof, cyflenwad bŵer, monitor, cebl monitor, a’r Raspberry Pi ei hun. Gofynnwch i’r dosbarth enwi a disgrifio pob cydran wrth i chi ei gysylltu at y Raspberry Pi o flaen y dosbarth. I orffen, plygiwch y pŵer i mewn a gwyliwch y cyfrifiadur yn cychwyn. Arddangosiad amgen byddai i adael allan y cerdyn cof a cheisio cychwyn y Pi, fyddai yn methu. Gallech chi wedyn ddisgrifio y cerdyn cof fel rhywbeth sy’n cynnwys cyfarwyddiadau sy’n dweud i’r Pi sut i ddechrau.  Dylai fod y Raspberry Pis i gyd wedi cychwyn ac ar y sgrîn mewngofnodi yn disgwyl am ddilysiad. 
+
+2. Gofynnwch i’r myfyrwyr osod eu hoffer Raspberry Pi, ei droi ymlaen a mewngofnodi yn defnyddio eu enw defnyddiwr pi a’r cyfrinair raspberry. 
+
+	*Nodwch na fydd y myfyrwyr yn gallu gweld unrhyw destun wrth deipio’r cyfrinair, ond sicrhewch iddyn nhw ei fod yn gweithio. Pam bod hyn yn digwydd? Cliw: beth fyddai yn digwydd petai rhywun yn edrych dros eu hysgwyddau? *
 	
-3. Next, students should load the graphical environment by typing `startx`. Once the desktop has loaded, show students how to open **IDLE3** either by double-clicking on the desktop icon, or by clicking on the **Main Menu** followed by **Programming** and selecting **IDLE3**.
+3.   Nesaf, dylai’r myfyrwyr lwytho’r amgylchedd raffigol drwy deipio 'startx'. Unwaith mae’r bwrdd gwaith wedi llwytho, dangoswch i’r myfyrwyr sut mae agor **IDLE3** unai drwy glicio dwywaith ar yr eicon bwrdd gwaith, neud drwy glicio ar y **prif ddewislen** ac yna **rhaglennu** a dewis **IDLE3**.
 	
-	*Note that this series of lessons uses Python 3. If students run IDLE then their code may not run.*
+	*Nodwch fod y gyfres yma o wersi yn defnyddio Python 3. Os yw’r myfyrwyr yn rhedeg IDLE falle na fydd eu cod yn rhedeg.*
 
-4. Explain to students that **IDLE3** is an application or environment that allows you to write a simple program using the programming language **Python**. It allows you to write, edit and run code. 
+4. Eglurwch i’r myfyrwyr fod **IDLE3** yn raglen neu yn amgylchedd sydd yn eich caniatáu i ysgrifennu rhaglen syml gan ddefnyddio yr iaith raglennu **Python**. Mae’n caniatáu i chi ysgrifennu, golygu a rhedeg cod. 
 
-5. Show students how to draw a shape by typing a sequence of instructions, line by line. See the [Student Instructions](student-instructions-1.md) for the steps required to complete this task.
+5. Dangoswch i’r myfyrwyr sut i greu siâp drwy deipio dilyniant o gyfeiriadau, linell wrth linell. Gwelwch y [Cyfarwyddiadau i Fyfyrwyr](student-instructions-1.md) ar gyfer y camau sydd eu hangen i gyflawni y dasg hon. 
 
-6. Ask students to shut down their Raspberry Pis by clicking on the **Shut Down** icon on the desktop. 
+6. Gofynnwch i’ r myfyrwyr ddiffodd eu Raspberry Pis drwy clicio ar yr eicion **Cau i Lawr** ar y bwrdd gwaith. 
 
 ## Plenary
 
-Write the following list of words on the board:
+Ysgrifennwch y rhestr o eiriau canlynol ar y bwrdd gwyn: 
 
-- Instructions
-- Sequence
+- Cyfarwyddiadau
+- Dilyniant
 - Raspberry Pi
 - Python
 - IDLE3
 
-Select a student randomly from the class. They must select one of the words from the board, stand up and point to someone else in the class who must then give the meaning of the word. That person then chooses the next person to give a word to.
+Dewiswch myfyriwr ar hap o’r dosbarth. Mae’n rhaid iddyn nhw ddewis un o’r geiriau ar y bwrdd gwyn, sefyll ar eu traed a phwyntio at rywun arall yn y dosbarth sy’n gorfod egluro ystyr y gair. Bydd y person yna wedyn yn dewis person arall ac yn rhoi gair iddyn nhw egluro. 
 
-## Homework
+## Gwaith cartref
 
-Students should write a sequence of instructions for a task, such as getting dressed for school or their favourite dance moves.
+Dylai myfyrwyr ysgrifennu dilyniant o gyfarwyddiadau ar gyfer tasg, fel gwisgo ar gyfer yr ysgol neu eu symudiadau dawns gorau. 
 
