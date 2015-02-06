@@ -1,75 +1,75 @@
-# Lesson 3 - Turning Text Into Sound
+# Gwers 3 - Troi testun yn sain
 
-## Introduction
+## Cyflwyniad
 
-This lesson will teach students how to take their chatting robot programs, which currently print the conversation to the screen, and turn them into speaking robots where they can hear their robot ask the question. 
+Bydd y wers yma yn dysgu i Fyfyrwyr sut i gymryd eu rhaglenni robotiaid sgwrsio, sydd ar hyn o bryd yn argraffu y sgwrs ar y sgrin, a’u troi yn robotiaid sy’n siarad lle y bydd modd iddyn nhw glywed eu robot yn gofyn y cwestiwn.
 
-You will need to ensure that 'espeak' has been downloaded and installed on the SD cards using `sudo apt-get install espeak`.
+Bydd yn rhaid i chi sicrhau bod ‘espeak’ wedi ei lwytho i lawr a’i osod ar y cardiau SD yn defnyddio 'sudo apt-get install espeak'.
 
-Students will need access to headphones in order to hear the sounds. You may also require a speaker to demonstrate to the class.
+Bydd angen i fyfyrwyr gael mynediad at glustffonau er mwyn clywed y synau. Falle bydd angen seinydd arnoch er mwyn arddangos i’r dosbarth.
 
-Finally, you will need to ensure that sound is being forced to the headphones rather than HDMI by typing `amixer cset numid=3 1`, or by double-clicking on the Python Games icon and selecting **Force Headphones**.
+Yn olaf, bydd yn rhaid i chi sicrhau bod sain yn cael ei orfodi i mewn i glustffonau yn hytrach na HDMI drwy deipio 'amixer cset numid=3 1', neu drwy glicio dwywaith ar yr eicon Python Games a dewis **Gorfodi Clustffonau**. 
 
-## Learning objectives
+## Amcanion dysgu 
 
-- Identify and use input and output devices on a Raspberry Pi
-- Be able to add code to chatting robot programs on the Raspberry Pi to allow text to be read aloud by it
-- Test and evaluate the chatting robot programs created so far
-
-
-## Learning outcomes
-
-### All students are able to:
-
-- Identify an input and an output device on a Raspberry Pi computer.
-- Add some code to a chatting robot program to allow text to be read aloud by it.
+- Adnabod a defnyddio dyfeisiau mewnbwn ac allbwn ar y Rasberry Pi.
+- Gallu ychwanegu cod at y rhaglenni robot sgwrsio ar y Rasberry Pi er mwyn caniatáu iddo ddarllen testun ar lafar.
+- Testio a gwerthuso y rhaglenni robot sgwrsio a grëwyd hyd yn hyn.
 
 
-### Most students are able to:
+## Deilliannau dysgu
 
-- Test and provide feedback to their peers on their chatting robot program.
+### Pob myfyriwr yn gallu: 
 
-### Some students are able to:
+- Adnabod dyfais mewnbwn ac allbwn ar gyfrifiadur Raspberry Pi.
+- Ychwanegu cod at raglen robot sgwrsio er mwyn caniatáu iddo ddarllen testun ar lafar.
 
-- Devise ways to improve the chatting robot program through evaluation.
+
+### Y rhan fwyaf o fyfyrwyr yn gallu:
+
+- Testio a chynnig adborth i’w cyfoedion ar eu rhaglen robot sgwrsio
+
+### Rhai myfyrwyr yn gallu:
+
+- Dyfeisio ffyrdd i wella y rhaglen robot sgwrsio drwy werthuso.  
 
 
-## Lesson summary
+## Crynodeb Gwers    
 
-- A parts labelling activity 
-- Adding text-to-speech
-- Improved Python programs
+- Gweithgaredd labelu darnau 
+- Ychwanegu testun-i-lais
+- Rhaglenni Python wedi’u gwella  
 
-## Starter
+## Man Dechrau
 
-Place at least four sets of the following out on desks unconnected, or however many you can find of each item from the list: 
+Gosodwch o leiaf pedwar set o’r canlynol, neu faint bynnag fedrwch chi eu ffeindio o bob eitem ar y rhestr, ar ddesgiau heb eu cysylltu: 
 
 - Raspberry Pi 
-- Speaker
-- Headphones 
-- Pi camera (if you have one) 
-- Webcam
-- Keyboard
-- Mouse
+- Seinydd
+- Clustffonau
+- Camera Pi (os oes un gennych chi) 
+- Gwe Gamera
+- Bysellfwrdd
+- Llygoden
 - Monitor 
 
-Allocate students to groups and give each group a different colour of sticky notes or paper. Give students time to label all the components with the following information:
+Dosbarthwch y myfyrwyr mewn i grwpiau a rhoddwch nodiadau stici neu bapur lliw gwahanol i bob grŵp. Rhowch amser i’r myfyrwyr labelu yr holl gydrannau gyda’r wybodaeth ganlynol:
 
-- What it is
-- Whether it is an input, process or output device
-- What it does
+- Beth ydyw
+- Y yw’n fewnbwn, proses neu ddyfais allbwn
+- Yr hyn y mae'n ei wneud
 
-After students have labelled the components, ask groups to explain their answers. Identify any which are incorrect or really interesting, and discuss the reasoning with the class. Explain that all computers have inputs and outputs. This is important to note for their chatting robot program, as they want to hear its speech outputting to headphones or a speaker.
+Ar ôl i’r myfyrwyr labelu y cydrannau, gofynnwch i’r grwpiau egluro eu hatebion. Nodwch unrhyw rai sy’n anghywir neu yn arbennig o ddiddorol, a thrafodwch y rhesymu gyda’r dosbarth. Eglurwch fod gan bob cyfrifiadur fewnbynnau ac allbynnau. Mae’n bwysig nodi hyn ar gyfer eu rhaglen robot sgwrsio, gan fod yn rhaid iddyn nhw glywed ei leferydd yn allbynnu i’r clustffonau neu seinydd.
 
 ![](audio_output.png)
 
-## Main development
+## Prif Ddatblygiad
 
-1. Ask students to set up their Raspberry Pi equipment, turn it on and log into their Pi using the username `pi` and the password `raspberry`. They should then load their chatting robot programs using **IDLE3**.
+1. Gofynnwch i’r myfyrwyr osod eu offer Raspberry Pi, ei droi ymlaen a mewngofnodi ar eu Pi gan ddefnyddio yr enw defnyddiwr 'pi' a’r cyfrinair 'raspberry'. Wedyn dylent lwytho eu rhaglenni robot sgwrsio gan ddefnyddio **IDLE3**. 
 	
-2. Using their homework from the previous lesson, instruct students to add more questions to their code using `input` and `print`.
+2.  Gan ddefnyddio eu gwaith cartref o’r wers blaenorol, cyfarwyddwch y myfyrwyr i ychwanegu mwy o gwestiynau at eu cod gan ddefnyddio 'mewnbwn' ac 'argraffu'.
 
-3. Explain that now students will need to add some code in order for the Raspberry Pi to speak the words in the program. Students will need to add the following code to the top of their programs:
+3.  Eglurwch y bydd angen i’r myfyrwyr ychwanegu rhywfaint o god fel gall y Raspberry Pi lefaru y geiriau yn y rhaglen. Bydd angen i’r myfyrwyr ychwanegu y cod canlynol at dop eu rhaglenni:
 
 	```python
 	# My Python Program by ...
@@ -80,27 +80,27 @@ After students have labelled the components, ask groups to explain their answers
 	
 	robot("Hello")
 	```
-	*Note that the indentation is important; the text editor in IDLE3 should auto-indent for you. Also, the spacing and use of quotation marks is important. The program will not work without them.*    
+	*Nodwch fod y bylchau yn bwysig; dylai’r golygydd testun yn IDLE3 greu’r bylchau yn awtomatig ar eich rhan. Hefyd, mae’r bylchau rhwng y geiriau a’r defnydd o ddyfynodau yn bwysig. Ni fydd y rhaglen yn gweithio os nad ydyn nhw yno.*    
 
-4. Ask students to save this as a new file by clicking on **File** and **Save As**, then name it **robot1**. They can then run their programs and they should hear a voice say "hello"!
+4. Gofynnwch i’r myfyrwyr arbed hwn fel ffeil newydd drwy glicio ar **File** a **Save As**, ac yna ei enwi yn **robot1**. Gallent redeg eu rhaglenni, a dylent glywed llais yn dweud “helo”! 
 
-5. Next, explain that instead of printing the questions to the screen, they can now get their robot voice to say them and then reply. 
+5. Nesaf, eglurwch ei fod hi nawr yn bosib, yn lle argraffu cwestiynau at y sgrin, i gael eu llais robot i’w llefaru nhw ac wedyn ateb.
 
-	To do this they first need to replace the word `print` with the function name `robot`, then remove the comma `,` and replace it with a plus symbol `+`. Ask students to save and test at this point. Can they explain what happens? Bonus points to anyone who can think of a way to get the robot to ask the questions as well! The answer is to add another line above the input line using the `robot` function, for example:
+	I wneud hyn, yn gyntaf mae angen iddyn nhw dynnu y gair 'print' ac ailosod yr enw ffwythiant 'robot' yn ei le, yna tynnu y coma `,` a’i gyfnewid gyda’r symbol `+`. Gofynnwch i’r myfyrwyr gadw a thestio ar y pwynt yma. Allen nhw egluro beth sydd yn digwydd? Mae pwyntiau bonws ar gyfer unrhyw un all feddwl am ffordd i gael y robot i ofyn y cwestiynau hefyd! Yr ateb yw i ychwanegu llinell arall uwchben y llinell mewnbwn gan ddefnyddio y ffwythiant `robot`, er enghraifft: 
 	
 	```python
-	robot('What is your name')
-	name = input('What is your name: ')
-	robot("Nice to meet you " + name)
+	robot('beth yw dy enw')
+	name = input('Beth yw dy enw: ')
+	robot("Braf cwrdd â chi " + name)
 	```
 
 	![](espeak2.png)
 
 ## Plenary
 
-Direct students to swap seats with a partner. They have a few minutes to test their partner's programs, and suggest at least one improvement by writing a comment using the `#` symbol. Students should then return to their programs and make the suggested improvement.
+Cyfeiriwch y myfyrwyr i gyfnewid seddi â phartner. Mae ganddyn nhw gwpl o funudau i destio rhaglen eu partner, ac i awgrymu o leiaf un gwelliant drwy ysgrifennu sylw drwy ddefnyddio y symbol `#`. Dylai’r myfyrwyr wedyn ddychwelyd at eu rhaglenni a gwneud y gwelliant gafodd ei argymell. 
 
-As an extension task, students could remove one line of code from their partner's program, swap back and see if they can fix the broken code!
+Fel tasg estynedig, gallai myfyrwyr dynnu un llinell o god o rhaglen eu partner, newid yn ôl, a gweld os allent drwsio y cod gwallus!
 
 
 
