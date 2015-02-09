@@ -3,20 +3,16 @@ import os
 import random, string
 from subprocess import Popen, PIPE, STDOUT
 
-
-
 API_KEY = "65f7ef45-fe56-4aac-a787-9a64fa065af4"
 API_LANG = 'cy'
 API_URL = "http://api.techiaith.org/festival/v1/?"
 
-
 def get_random_filename(length=10, chars=string.ascii_uppercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(length))
    
-
 def get_speech_audio(text):
 
-    filename = '%s.mp3' % get_random_filename()
+    filename = 'tmpaudio/%s.mp3' % get_random_filename()
     
     with open(filename , 'wb') as f:
         params = {
@@ -30,8 +26,6 @@ def get_speech_audio(text):
         f.write(urllib.request.urlopen(url).read())
 
     return filename
-
-
      
 def llefaru(text):
 
@@ -53,4 +47,3 @@ def llefaru(text):
 
     pplay.stdin.write(b'QUIT')
         
-    
