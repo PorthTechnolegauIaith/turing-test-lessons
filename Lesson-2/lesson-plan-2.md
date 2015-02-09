@@ -43,7 +43,7 @@ Gofynnwch i’r myfyrwyr pam ei fod yn mor anodd i raglenni fel rhain ddeall a r
 Eglurwch gysyniad y [Prawf Turing](http://en.wikipedia.org/wiki/Turing_test) a deallusrwydd artiffisial. Eglurwch y bydd y myfyrwyr yn y wers hon yn ysgrifennu rhaglenni Python ar y Raspberry Pi er mwyn eu troi i mewn i robotiaid sgwrsio. 
 
 
-## Prif Ddatblygiad
+## Y Prif Waith Datblygu
 
 1. Gofynnwch i’r myfyrwyr osod eu cyfarpar Raspberry Pi, ei droi ymlaen a mewngofnodi i’w Pi gan ddefnyddio yr enw defnyddiwr 'pi' a’r cyfrinair 'raspberry'.
 
@@ -79,8 +79,8 @@ Eglurwch gysyniad y [Prawf Turing](http://en.wikipedia.org/wiki/Turing_test) a d
 
 	```python
 	
-	oedran = mewnbwn(' pa mor hen wyt ti: ')
-	print("dwyt ti ddim yn edrych mor hen â hynny ", oedran)
+	oedran = input(' pa mor hen wyt ti: ')
+	print("dwyt ti ddim yn edrych yn", oedran)
 	```
 	Cyfeiriwch y myfyrwyr i gadw y ffeil a rhedeg yr un cod ag o’r blaen.  
 	
@@ -92,7 +92,7 @@ Eglurwch gysyniad y [Prawf Turing](http://en.wikipedia.org/wiki/Turing_test) a d
 
 8.  Gadewch i’r myfyrwyr barhau i ysgrifennu cod i gymryd mewnbwn a phostio gwybodaeth ar y sgrîn. Yna gofynnwch i’r myfyrwyr gadw eu gwaith a diffodd y Raspberry Pis drwy glicio ar y botwm **Cau i Lawr**.
 
-## Plenary
+## Dod i Derfyn
 
 Gofynnwch i’r myfyrwyr ddewis tri gair newydd maen nhw wedi eu dewis heddiw neu yn y gwersi diwethaf, a’u diffinio nhw. Yna gofynnwch i’r myfyrwyr ysgrifennu paragraff am bob un o’r geiriau, neu ddefnyddio tri ar unwaith. 
 
