@@ -1,5 +1,20 @@
 # Gwers 3 - Troi testun yn sain
 
+
+
+Mae angen ehangu'r wers yma i gynnwys adnoddau Porth Technolegau Iaith. Yn y ffolder 'src' y project hon mae casgliad o ffeiliau Python sy'n hwyluso defnyddio'r canlynol o fewn projectau'r plant:
+
+ - tagiwr rhannau ymadrodd
+ - adnabod iaith
+ - cysill
+ - testun i leferydd
+
+Mae'r tagiwr rhannau ymadrodd wedi ei symleiddio i echdynnu enwau pobl a llefydd allan o destun.
+
+
+
+
+
 ## Cyflwyniad
 
 Bydd y wers yma yn dysgu i Fyfyrwyr sut i gymryd eu rhaglenni robotiaid sgwrsio, sydd ar hyn o bryd yn argraffu y sgwrs ar y sgrin, a’u troi yn robotiaid sy’n siarad lle y bydd modd iddyn nhw glywed eu robot yn gofyn y cwestiwn.
