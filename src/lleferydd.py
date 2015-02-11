@@ -19,7 +19,6 @@ def get_speech_audio(text):
     url = API_URL + urllib.parse.urlencode(params)    
     return urllib.request.urlopen(url).read()
 
-    return filename
      
 def llefaru(text):
     audio = get_speech_audio(text)
@@ -27,6 +26,7 @@ def llefaru(text):
     aplay = Popen(['aplay', '-'], stdout=PIPE, stdin=PIPE, stderr=STDOUT)    
     aplay.stdin.write(audio)
     aplay.communicate()
+
 
 if __name__ == "__main__":
     llefaru('helo')
