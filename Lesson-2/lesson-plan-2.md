@@ -53,9 +53,9 @@ Eglurwch gysyniad y [Prawf Turing](http://en.wikipedia.org/wiki/Turing_test) a d
 
 	![](idle3.png)
 
-3. Arddangoswch y ffenest ddehongli IDLE i’r myfyrwyr. Eglurwch y gellir teipio yn uniongyrchol i mewn i’r ffenest ar ôl y prompt, a fydd yn edrych fel hyn: '>>>'. Gelwir y ffenest hwn yn ddehonglydd neu gragen. Gallech deipio llinell o god ar ôl y prompt a gwasgu Enter; bydd hyn rhedeg y llinell hwnnw o god. Gallech arddangos hyn gyda `print("Helo Fyd!")`. Gofynnwch i’r myfyrwyr beth fydden nhw yn rhoi yn lle " Helo Fyd ". Gadewch iddyn nhw arbrofi gyda defnyddio y ffenest ddehongli am funud neu ddwy. Eglurwch y bydd y cyfrifiadur dim ond yn dilyn un cyfarwyddiad ar y tro mewn **dilyniant**. 
+3. Arddangoswch y ffenest ddehongli IDLE i’r myfyrwyr. Eglurwch y gellir teipio yn uniongyrchol i mewn i’r ffenest ar ôl y prompt, a fydd yn edrych fel hyn: '>>>'. Gelwir y ffenest hwn yn ddehonglydd neu gragen (shell). Gallech deipio llinell o god ar ôl y prompt a gwasgu Enter; bydd hyn yn rhedeg y llinell hwnnw o god. Gallech arddangos hyn gyda `print("Helo Fyd!")`. Gofynnwch i’r myfyrwyr beth fydden nhw yn rhoi yn lle " Helo Fyd ". Gadewch iddyn nhw arbrofi gyda defnyddio y ffenest ddehongli am funud neu ddwy. Eglurwch y bydd y cyfrifiadur dim ond yn dilyn un cyfarwyddiad ar y tro mewn **dilyniant**. 
 
-4. Eglurwch i’r myfyrwyr ei bod hi’n gallu mynd yn fwy ac yn fwy blinedig defnyddio y dehonglydd pan wyt ti’n ysgrifennu lot o linellau o god. Felly, os wyt ti eisiau cadw dy god, mae’n well defnyddio golygydd testun.  Dangoswch i’r myfyrwyr sut i greu ffeil golygydd testun newydd drwy glicio ar **Ffeil>Ffenest Newydd** o’r ddewislen ar dop y ffenest **IDLE3**.  Dangoswch i’r myfyrwyr sut i gadw y ffeil hon, drwy glicio ar **Ffeil>Dewisiadau Cadw** a’i henwi yn enw1.py. 
+4. Eglurwch i’r myfyrwyr ei bod hi’n gallu mynd yn fwy ac yn fwy blinedig defnyddio y dehonglydd pan wyt ti’n ysgrifennu lot o linellau o god. Felly, os wyt ti eisiau cadw dy god, mae’n well defnyddio golygydd testun.  Dangoswch i’r myfyrwyr sut i greu ffeil golygydd testun newydd drwy glicio ar **Ffeil>Ffenest Newydd** (**File>New Window**) o’r ddewislen ar dop y ffenest **IDLE3**.  Dangoswch i’r myfyrwyr sut i gadw y ffeil hon, drwy glicio ar **Ffeil>Dewisiadau Cadw** (**File>Save Options**) a’i henwi yn enw1.py. 
 
 5. Gofynnwch i’r myfyrwyr deipio y cod canlynol i mewn i ffenest y golygydd testun. Nodwch y gwahaniaeth rhwng sylw a llinell o god. Mae sylwadau yn ran o’r rhan o’r rhaglen sy’n cael eu anwybyddu gan y cyfrifiadur, fel ein bod ni yn gallu gwneud nodiadau ynglŷn a beth sy’n digwydd yn y rhaglen. 
 
@@ -80,7 +80,7 @@ Eglurwch gysyniad y [Prawf Turing](http://en.wikipedia.org/wiki/Turing_test) a d
 	```python
 	
 	oedran = input(' pa mor hen wyt ti: ')
-	print("dwyt ti ddim yn edrych yn", oedran)
+	print("dwyt ti ddim yn edrych yn ", oedran)
 	```
 	Cyfeiriwch y myfyrwyr i gadw y ffeil a rhedeg yr un cod ag o’r blaen.  
 	
