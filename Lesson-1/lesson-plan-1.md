@@ -37,7 +37,7 @@ Sut mae cyfrifiaduron yn meddwl? Yn y wers yma, bydd myfyrwyr yn ystyried y ffor
 
 Yn gyntaf, dewiswch tri neu bedwar myfyriwr i fod yn robotiaid, ac yna rhannwch y myfyrwyr sy’n weddill yn dri neu bedwar tîm. Mae pob tîm yn cystadlu mewn ras i weld pwy all dywys ‘robot’ o gwmpas y dosbarth, neu ‘ddrysfa’ (maze). Gallai hyn fod yn dasg awyr agored. Eglurwch i’r ‘robotiaid’ bod rhaid iddyn nhw esgus bod yn dwp, a dim ond dilyn y cyfarwyddiadau maen nhw’n derbyn gan y myfyrwyr eraill. 
 
-Trwy gydol y ras, gwnewch yn sicr fod y myfyrwyr yn defnyddio cyfarwyddiadau fel “cama ymlaen 10 cam” neu “tro 90 gradd i’r dde”.
+Trwy gydol y ras, gwnewch yn sicr fod y myfyrwyr yn defnyddio cyfarwyddiadau fel “cama ymlaen 10 cam” neu “troi 90 gradd i’r dde”.
 
 Unwaith mae’r ras wedi’i hennill, trafodwch unrhyw broblemau daeth y timau ar eu traws wrth drio cael y robot i ddilyn eu cyfarwyddiadau.  Trïwch dynnu sylw y myfyrwyr at y ffaith na allasai’r robot wneud ei benderfyniadau ei hunain, ac y bu yn rhaid iddyn nhw fod yn benodol iawn ynglŷn a throeon a chamau oherwydd hynny. 
 
@@ -49,11 +49,11 @@ Eglurwch fod cyfrifiadur yn gweithio drwy gyflawni datganiadau un ar ôl y llall
 
 2. Dechreuwch gyda holl gydrannau y Raspberry Pi ar y bwrdd: bysellfwrdd, llygoden, seinydd, cerdyn cof, cyflenwad bŵer, monitor, cebl monitor, a’r Raspberry Pi ei hun. Gofynnwch i’r dosbarth enwi a disgrifio pob cydran wrth i chi ei gysylltu at y Raspberry Pi o flaen y dosbarth. I orffen, plygiwch y pŵer i mewn a gwyliwch y cyfrifiadur yn cychwyn. Arddangosiad amgen byddai i adael allan y cerdyn cof a cheisio cychwyn y Pi, fyddai yn methu. Gallech chi wedyn ddisgrifio y cerdyn cof fel rhywbeth sy’n cynnwys cyfarwyddiadau sy’n dweud i’r Pi sut i ddechrau.  Dylai fod y Raspberry Pis i gyd wedi cychwyn ac ar y sgrîn mewngofnodi yn disgwyl am ddilysiad. 
 
-2. Gofynnwch i’r myfyrwyr osod eu hoffer Raspberry Pi, ei droi ymlaen a mewngofnodi yn defnyddio eu enw defnyddiwr pi a’r cyfrinair raspberry. 
+2. Gofynnwch i’r myfyrwyr osod eu hoffer Raspberry Pi, ei droi ymlaen a mewngofnodi yn defnyddio eu enw defnyddiwr `pi` a’r cyfrinair `raspberry`. 
 
 	*Nodwch na fydd y myfyrwyr yn gallu gweld unrhyw destun wrth deipio’r cyfrinair, ond sicrhewch iddyn nhw ei fod yn gweithio. Pam bod hyn yn digwydd? Cliw: beth fyddai yn digwydd petai rhywun yn edrych dros eu hysgwyddau? *
 	
-3.   Nesaf, dylai’r myfyrwyr lwytho’r amgylchedd raffigol drwy deipio 'startx'. Unwaith mae’r bwrdd gwaith wedi llwytho, dangoswch i’r myfyrwyr sut mae agor **IDLE3** unai drwy glicio dwywaith ar yr eicon bwrdd gwaith, neud drwy glicio ar y **prif ddewislen** ac yna **rhaglennu** a dewis **IDLE3**.
+3.   Nesaf, dylai’r myfyrwyr lwytho’r amgylchedd graffigol drwy deipio 'startx'. Unwaith mae’r bwrdd gwaith wedi llwytho, dangoswch i’r myfyrwyr sut mae agor **IDLE3** unai drwy glicio dwywaith ar yr eicon bwrdd gwaith, neud drwy glicio ar y **prif ddewislen** ac yna **rhaglennu** a dewis **IDLE3**.
 	
 	*Nodwch fod y gyfres yma o wersi yn defnyddio Python 3. Os yw’r myfyrwyr yn rhedeg IDLE falle na fydd eu cod yn rhedeg.*
 
