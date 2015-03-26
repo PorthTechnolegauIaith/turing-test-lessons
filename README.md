@@ -4,7 +4,7 @@
 
 ## Cyflwyniad
 
-Mae’r cynllun gwaith hwn wedi'i gynllunio fel cyflwyniad i raglennu seiliedig ar destun gan ddefnyddio Python ar y Raspberry Pi. Erbyn diwedd yr holl wersi, bydd myfyrwyr wedi creu robot sgwrsio rhyngweithiol ac wedi’u cyflwyno at y cysyniad cyfrifiadurol o ddeallusrwydd artiffisial. 
+Mae’r cynllun gwaith hwn wedi'i gynllunio fel cyflwyniad i raglennu seiliedig ar destun gan ddefnyddio Python ar y Raspberry Pi. Erbyn diwedd yr holl wersi, bydd myfyrwyr wedi creu robot sgwrsio rhyngweithiol ac wedi’u cyflwyno at technolegau iaith Cymraeg yn ogystal a'r cysyniad cyfrifiadurol o ddeallusrwydd artiffisial. 
 
 Mae’r cynllun gwaith hwn wedi ei dargedu yn benodol at Gyfrifiadura CA2 cyflwyniadol, er y gellid defnyddio'r gwersi yma mewn cynllun ehangach o waith yn CA3. Mae hyn wedi'i ddatblygu yn unol â chwricwlwm Cyfrifiadura newydd Lloegr.
 
