@@ -1,0 +1,17 @@
+
+Addasu lleferydd.py i gynnwys functions 'llefaru' a 'cwestiwn'
+
+Lang Detect:
+5a2b454d-0909-43dc-8699-877b0381f995
+
+https://api.techiaith.org/langdetect/v1?api_key=5a2b454d-0909-43dc-8699-877b0381f995&text=mae%20hen%20wlad%20fy%20nhadau
+
+Festival - defnyddio api key rhywun arall:
+65f7ef45-fe56-4aac-a787-9a64fa065af4
+
+
+https://git.techiaith.bangor.ac.uk/poti/festival-api/blob/master/doc/demo2.md
+
+
+https://api.techiaith.org/festival/v1?api_key=65f7ef45-fe56-4aac-a787-9a64fa065af4&text=mae%20na%201%20wall%20yn%20y%20testun
+
